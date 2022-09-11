@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsive webpage.css">
+    <link rel="stylesheet" href="grids.css">
+    <script src="jQuery.js"></script>
+    <script>
+        $(function () {
+            $('#nav span').click(function () {
+                $('#nav ul').slideToggle();
+            })
+        });
+    </script>
+    <title>Responsive Webpage</title>
+</head>
+
+<body>
+    <div id="nav">
+        <div class="wrapper">
+            <div class="row">
+                <span id="3line"></span>
+                <ul>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">همکاری با ما</a></li>
+                    <li><a href="#">تبلیغات</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+
+        <div class="row">
+            <div id="header" class="col-xs-12">
+                <h1>به سایت ما خوش امدید</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi aliquam aspernatur minus aliquid
+                    magni ipsum? Debitis in itaque quod quidem autem doloribus reprehenderit consequuntur? Laboriosam
+                    aperiam deserunt aspernatur repellat optio.</p>
+
+            </div>
+        </div>
+        <div class="row" id="content">
+            <div class="col-xs-12 ">
+                <div id="products">
+                    <h2>لیست محصولات و خدمات</h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/pic1.png" alt="">
+                        <h3>محصول شماره 1</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/pic2.png" alt="">
+                        <h3>محصول شماره 2</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/pic3.png" alt="">
+                        <h3>محصول شماره 3</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/pic4.png" alt="">
+                        <h3>محصول شماره 4</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/pic5.png" alt="">
+                        <h3>محصول شماره 5</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/pic6.png" alt="">
+                        <h3>محصول شماره 6</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+
+
+    </div>
+    <div id="footer">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div id="newsletter">
+                        <form>
+                            <input type="email" placeholder="عضویت در خبرنامه">
+                            <input type="submit" value="عضویت">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div id="sitemap">
+                        <ul>
+                            <li><a href="#">صفحه اصلی</a></li>
+                            <li><a href="#">همکاری با ما</a></li>
+                            <li><a href="#">تبلیغات</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
